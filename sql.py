@@ -59,7 +59,7 @@ def insert_by_many(table):
   
   
 # 连接数据库  
-conn = MySQLdb.connect(host="192.168.146.129", port=3306, user="root", passwd="ichunqiu", db="ctf",charset="utf8")  
+conn = MySQLdb.connect(host="192.168.146.129", port=3306, user="root", passwd="bbs", db="ctf",charset="utf8")  
 cur = conn.cursor()  
   
 # 新建数据库  
