@@ -37,7 +37,7 @@ def insert_by_many(table):
         conn.rollback()      
   
 # 连接本地数据库  设置编码 导入数据库名字 输入虚拟机IP或者拖入机器直接 运行
-conn = MySQLdb.connect(host="192.168.146.129", port=3306, user="root", passwd="ichunqiu", db="100ti",charset="utf8")  
+conn = MySQLdb.connect(host="192.168.146.129", port=3306, user="root", passwd="root", db="100ti",charset="utf8")  
 cur = conn.cursor()  
   
 # 从excel文件获取数据  
