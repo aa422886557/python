@@ -83,7 +83,7 @@ def insert_by_many(table):
 # db_server = "192.168.146.129"
 # db_port = "3306"
 # db_user = "root"
-# db_passwd = "ichunqiu"
+# db_passwd = "******"
 # db_name = "test"
 # db_charset = "utf8"
 
@@ -105,7 +105,7 @@ if __name__ == '__main__':
 
     xls = sys.argv[1]
 
-    conn = MySQLdb.connect(host="192.168.146.129", port=3306, user="root", passwd="ichunqiu", db="test02",charset="utf8") 
+    conn = MySQLdb.connect(host="192.168.146.129", port=3306, user="root", passwd="******", db="test02",charset="utf8") 
     #################### 连接数据库#########################
     #conn = MySQLdb.connect(db_server, db_port, db_user, db_passwd, db_name,db_charset)  
     cur = conn.cursor()  
